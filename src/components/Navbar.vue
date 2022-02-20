@@ -25,6 +25,7 @@
   import getUser from '../composables/getUser'
   import { useRouter } from 'vue-router'
   //import { watchEffect } from 'vue'
+  
    // firebase imports
    import { auth } from '../firebase/config'
    import { signOut } from 'firebase/auth'
